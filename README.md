@@ -13,7 +13,9 @@ To complete this challenge, you need:
 - Set a conditional breakpoint in `calculate()` method of [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java) and capture the value of local variable `result` when `i` equals 5000 ,
   which is the answer of this challenge. Put it into the input box and you can open this chest.
   - **NOTE: you can only get the correct result via debugger, it WON'T work if you try to add print statement like `System.out.println` - that will give you a wrong anser.**
+
 </details>
+
 <details>
 <summary>简体中文</summary>
 
@@ -28,48 +30,192 @@ To complete this challenge, you need:
   - 如果你直接访问GitHub有困难（如超时、报错、速度缓慢等），可以Clone我们在中国大陆的镜像`https://git.bytelegend.com/ByteLegendQuest/java-set-a-conditional-breakpoint`。
 - 在[src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java)中的`calculate()`方法中设置一个条件断点，捕捉当`i`等于5000时局部变量`result`的值，它就是本题的答案，将其贴到输入框中即可打开宝箱。
   - **请注意，你一定要通过调试器才能获得正确的结果，如果试图添加`System.out.println`之类的打印语句会导致获得的结果不正确！！！**
+
 </details>
+
 <details>
 <summary>繁體中文</summary>
 
-<h1>學習 Java 調試器條件斷點</h1><p>調試器是一項非常重要的技能，它可以極大地提高您的工作效率。</p><p>條件斷點是一種更高級的調試技巧，在很多情況下可以加快你的調試速度。</p><p>要完成此挑戰，您需要：</p><ul><li>使用<code class="notranslate">git</code>客戶端克隆<a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">這個 repo：https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint。</a></li><li> <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">在 src/main/java/com/bytelegend/Main.java 的</a><code class="notranslate">calculate()</code>方法中設置條件斷點，在<code class="notranslate">i</code>等於 5000 時捕獲局部變量<code class="notranslate">result</code>的值，這就是本次挑戰的答案。把它放進輸入框，你就可以打開這個箱子了。<ul><li><strong>注意：您只能通過調試器獲得正確的結果，如果您嘗試添加像<code class="notranslate">System.out.println</code>這樣的打印語句，它將無法工作 - 這會給您一個錯誤的分析器。</strong></li></ul></li></ul></details>
+學習 Java 調試器條件斷點
+===============
+
+調試器是一項非常重要的技能，它可以大大提高你的生產力。
+
+條件斷點是一種更高級的調試技巧，在很多情況下可以加快你的調試速度。
+
+要完成這一挑戰，您需要：
+
+-   使用`git`客戶端克隆[此 repo：https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) 。
+-   在[src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java)的`calculate()`方法中設置條件斷點，並在`i`等於 5000 時捕獲局部變量`result`的值，這就是本次挑戰的答案。把它放進輸入框，就可以打開這個寶箱了。
+    -   **注意：您只能通過調試器獲得正確的結果，如果您嘗試添加像`System.out.println`這樣的打印語句，它將不起作用 - 這會給您一個錯誤的分析器。**
+</details>
+
 <details>
 <summary>Español</summary>
 
-<h1>Aprenda el punto de interrupción condicional del depurador de Java</h1><p> El depurador es una habilidad muy importante que puede mejorar enormemente su productividad.</p><p> El punto de interrupción condicional es una habilidad de depuración más avanzada, que puede acelerar la depuración en muchos casos.</p><p> Para completar este desafío, necesita:</p><ul><li> Clone <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">este repositorio: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint</a> con el cliente <code class="notranslate">git</code></li><li> Establezca un punto de interrupción condicional en el método <code class="notranslate">calculate()</code> <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">de src / main / java / com / bytelegend / Main.java</a> y capture el valor del <code class="notranslate">result</code> de la variable local cuando <code class="notranslate">i</code> es igual a 5000, que es la respuesta de este desafío. Ponlo en el cuadro de entrada y podrás abrir este cofre.<ul><li> <strong>NOTA: solo puede obtener el resultado correcto a través del depurador, NO funcionará si intenta agregar una declaración de impresión como <code class="notranslate">System.out.println</code> , lo que le dará una respuesta incorrecta.</strong></li></ul></li></ul></details>
+Aprenda el punto de interrupción condicional del depurador de Java
+==================================================================
+
+El depurador es una habilidad muy importante, que puede mejorar en gran medida su productividad.
+
+El punto de interrupción condicional es una habilidad de depuración más avanzada, que puede acelerar la depuración en muchos casos.
+
+Para completar este desafío, necesitas:
+
+-   Clone [este repositorio: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) con el cliente `git` .
+-   Establezca un punto de interrupción condicional en el método de `calculate()` de [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java) y capture el valor del `result` de la variable local cuando `i` sea igual a 5000, que es la respuesta de este desafío. Póngalo en el cuadro de entrada y podrá abrir este cofre.
+    -   **NOTA: solo puede obtener el resultado correcto a través del depurador, NO funcionará si intenta agregar una declaración de impresión como `System.out.println` , que le dará una respuesta incorrecta.**
+</details>
+
 <details>
 <summary>العربية</summary>
 
-<h1 style=";text-align:right;direction:rtl">تعلم Java Debugger Conditional Breakpoint</h1><p style=";text-align:right;direction:rtl"> يعد المصحح مهارة مهمة للغاية ، يمكن أن تحسن إنتاجيتك بشكل كبير.</p><p style=";text-align:right;direction:rtl"> نقطة التوقف الشرطية هي مهارة تصحيح أخطاء أكثر تقدمًا ، والتي يمكن أن تسرع تصحيح الأخطاء في كثير من الحالات.</p><p style=";text-align:right;direction:rtl"> لإكمال هذا التحدي ، أنت بحاجة إلى:</p><ul style=";text-align:right;direction:rtl"><li style=";text-align:right;direction:rtl"> استنساخ <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">هذا الريبو: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint</a> مع عميل <code class="notranslate">git</code></li><li style=";text-align:right;direction:rtl"> عيّن نقطة توقف شرطية في طريقة <code class="notranslate">calculate()</code> <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">لـ src / main / java / com / bytelegend / Main.java والتقط</a> <code class="notranslate">result</code> المتغير المحلي عندما تكون <code class="notranslate">i</code> تساوي 5000 ، وهي إجابة هذا التحدي. ضعه في صندوق الإدخال ويمكنك فتح هذا الصندوق.<ul style=";text-align:right;direction:rtl"><li style=";text-align:right;direction:rtl"> <strong>ملاحظة: يمكنك فقط الحصول على النتيجة الصحيحة عبر مصحح الأخطاء ، <code class="notranslate">System.out.println</code> - فهذا سيعطيك إجابة خاطئة.</strong></li></ul></li></ul></details>
+تعلم Java Debugger Conditional Breakpoint
+=========================================
+
+يعد المصحح مهارة مهمة للغاية ، يمكن أن تحسن إنتاجيتك بشكل كبير.
+
+نقطة التوقف الشرطية هي مهارة تصحيح أخطاء أكثر تقدمًا ، والتي يمكن أن تسرع تصحيح الأخطاء في كثير من الحالات.
+
+لإكمال هذا التحدي ، أنت بحاجة إلى:
+
+-   استنساخ [هذا الريبو: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) مع عميل `git` .
+-   عيّن نقطة توقف شرطية في طريقة `calculate()` لـ [src / main / java / com / bytelegend / Main.java والتقط](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java) قيمة `result` المتغير المحلي عندما تكون `i` تساوي 5000 ، وهي إجابة هذا التحدي. ضعه في صندوق الإدخال ويمكنك فتح هذا الصندوق.
+    -   **ملاحظة: يمكنك فقط الحصول على النتيجة الصحيحة عبر مصحح الأخطاء ، ولن تعمل إذا حاولت إضافة عبارة طباعة مثل `System.out.println` - فهذا سيعطيك إجابة خاطئة.**
+</details>
+
 <details>
 <summary>Português</summary>
 
-<h1>Aprenda ponto de interrupção condicional do depurador Java</h1><p> O depurador é uma habilidade muito importante, que pode melhorar muito a sua produtividade.</p><p> O ponto de interrupção condicional é uma habilidade de depuração mais avançada, que pode acelerar sua depuração em muitos casos.</p><p> Para completar este desafio, você precisa:</p><ul><li> Clone <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">este repo: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint</a> com o cliente <code class="notranslate">git</code></li><li> Defina um ponto de interrupção condicional no método <code class="notranslate">calculate()</code> <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">de src / main / java / com / bytelegend / Main.java</a> e capture o valor do <code class="notranslate">result</code> variável local quando <code class="notranslate">i</code> igual a 5000, que é a resposta a este desafio. Coloque-o na caixa de entrada e você pode abrir este baú.<ul><li> <strong>NOTA: você só pode obter o resultado correto através do depurador, NÃO funcionará se você tentar adicionar a instrução de impressão como <code class="notranslate">System.out.println</code> - isso gerará um anser errado.</strong></li></ul></li></ul></details>
+Aprenda o ponto de interrupção condicional do depurador Java
+============================================================
+
+O depurador é uma habilidade muito importante, que pode melhorar muito sua produtividade.
+
+O ponto de interrupção condicional é uma habilidade de depuração mais avançada, que pode acelerar sua depuração em muitos casos.
+
+Para completar este desafio, você precisa:
+
+-   Clone [este repositório: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) com `git` client.
+-   Defina um breakpoint condicional no método `calculate()` de [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java) e capture o valor da variável local `result` quando `i` for igual a 5000 , que é a resposta deste desafio. Coloque-o na caixa de entrada e você pode abrir este baú.
+    -   **NOTA: você só pode obter o resultado correto via depurador, não funcionará se você tentar adicionar uma declaração de impressão como `System.out.println` - isso lhe dará uma resposta errada.**
+</details>
+
 <details>
 <summary>Bahasa Indonesia</summary>
 
-<h1>Pelajari Breakpoint Bersyarat Java Debugger</h1><p> Debugger adalah keterampilan yang sangat penting, yang dapat sangat meningkatkan produktivitas Anda.</p><p> Breakpoint bersyarat adalah keterampilan debugging yang lebih maju, yang dapat mempercepat debugging Anda dalam banyak kasus.</p><p> Untuk menyelesaikan tantangan ini, Anda memerlukan:</p><ul><li> Kloning <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">repo ini: https://github.com/ByteLegendQuest/Java-set-a-conditional-breakpoint</a> dengan klien <code class="notranslate">git</code></li><li> Tetapkan breakpoint bersyarat dalam metode <code class="notranslate">calculate()</code> <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">dari src/main/Java/com/bytelegend/Main.java</a> dan tangkap nilai <code class="notranslate">result</code> variabel lokal ketika <code class="notranslate">i</code> sama dengan 5000 , yang merupakan jawaban dari tantangan ini. Masukkan ke dalam kotak input dan Anda dapat membuka peti ini.<ul><li> <strong>CATATAN: Anda hanya bisa mendapatkan hasil yang benar melalui debugger, itu TIDAK AKAN berfungsi jika Anda mencoba menambahkan pernyataan cetak seperti <code class="notranslate">System.out.println</code> - yang akan memberi Anda jawaban yang salah.</strong></li></ul></li></ul></details>
+Pelajari Breakpoint Bersyarat Java Debugger
+===========================================
+
+Debugger adalah keterampilan yang sangat penting, yang dapat sangat meningkatkan produktivitas Anda.
+
+Breakpoint bersyarat adalah keterampilan debugging yang lebih maju, yang dapat mempercepat debugging Anda dalam banyak kasus.
+
+Untuk menyelesaikan tantangan ini, Anda perlu:
+
+-   Kloning [repo ini: https://github.com/ByteLegendQuest/Java-set-a-conditional-breakpoint](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) dengan klien `git` .
+-   Tetapkan breakpoint bersyarat dalam metode count `calculate()` dari [src/main/Java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java) dan tangkap nilai `result` variabel lokal ketika `i` sama dengan 5000 , yang merupakan jawaban dari tantangan ini. Masukkan ke dalam kotak input dan Anda dapat membuka peti ini.
+    -   **CATATAN: Anda hanya bisa mendapatkan hasil yang benar melalui debugger, itu TIDAK AKAN berfungsi jika Anda mencoba menambahkan pernyataan cetak seperti `System.out.println` - yang akan memberi Anda jawaban yang salah.**
+</details>
+
 <details>
 <summary>Français</summary>
 
-<h1>Apprendre le point d&#39;arrêt conditionnel du débogueur Java</h1><p> Le débogueur est une compétence très importante, qui peut grandement améliorer votre productivité.</p><p> Le point d&#39;arrêt conditionnel est une compétence de débogage plus avancée, qui peut accélérer votre débogage dans de nombreux cas.</p><p> Pour relever ce défi, il vous faut :</p><ul><li> Clonez <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">ce référentiel : https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint</a> avec le client <code class="notranslate">git</code></li><li> Définissez un point d&#39;arrêt conditionnel dans la méthode <code class="notranslate">calculate()</code> <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">de src/main/java/com/bytelegend/Main.java</a> et capturez la valeur de la variable locale <code class="notranslate">result</code> lorsque <code class="notranslate">i</code> est égal à 5000 , ce qui est la réponse à ce défi. Mettez-le dans la zone de saisie et vous pouvez ouvrir ce coffre.<ul><li> <strong>REMARQUE: vous ne pouvez obtenir le résultat correct que via le débogueur, cela ne fonctionnera PAS si vous essayez d&#39;ajouter une instruction print comme <code class="notranslate">System.out.println</code> - cela vous donnera une mauvaise réponse.</strong></li></ul></li></ul></details>
+Apprendre le point d'arrêt conditionnel du débogueur Java
+=========================================================
+
+Le débogueur est une compétence très importante, qui peut grandement améliorer votre productivité.
+
+Le point d'arrêt conditionnel est une compétence de débogage plus avancée, qui peut accélérer votre débogage dans de nombreux cas.
+
+Pour relever ce défi, il vous faut :
+
+-   Clonez [ce référentiel : https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) avec le client `git` .
+-   Définissez un point d'arrêt conditionnel dans la méthode `calculate()` de [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java) et capturez la valeur de la variable locale `result` lorsque `i` est égal à 5000 , ce qui est la réponse à ce défi. Mettez-le dans la zone de saisie et vous pourrez ouvrir ce coffre.
+    -   **REMARQUE : vous ne pouvez obtenir le résultat correct que via le débogueur, cela ne fonctionnera PAS si vous essayez d'ajouter une instruction d'impression telle que `System.out.println` - cela vous donnera une mauvaise réponse.**
+</details>
+
 <details>
 <summary>日本語</summary>
 
-<h1>Javaデバッガの条件付きブレークポイントを学ぶ</h1><p>デバッガーは非常に重要なスキルであり、生産性を大幅に向上させることができます。</p><p>条件付きブレークポイントは、より高度なデバッグスキルであり、多くの場合、デバッグを高速化できます。</p><p>このチャレンジを完了するには、次のものが必要です。</p><ul><li>このリポジトリのクローンを作成し<a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">ます：https：//github.com/ByteLegendQuest/java-set-a-conditional-breakpoint</a> with <code class="notranslate">git</code> 。</li><li> <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">src / main / java / com / bytelegend / Main.javaの</a><code class="notranslate">calculate()</code>メソッドに条件付きブレークポイントを設定し、 <code class="notranslate">i</code>が5000に等しい場合<code class="notranslate">result</code>値をキャプチャします。これがこの課題の答えです。入力ボックスに入れると、このチェストを開くことができます。<ul><li> <strong><code class="notranslate">System.out.println</code>ような印刷ステートメントを追加しようとすると機能しません。これにより、間違った回答が得られます。</strong></li></ul></li></ul></details>
+Javaデバッガの条件付きブレークポイントを学ぶ
+========================
+
+デバッガーは非常に重要なスキルであり、生産性を大幅に向上させることができます。
+
+条件付きブレークポイントは、より高度なデバッグスキルであり、多くの場合、デバッグを高速化できます。
+
+このチャレンジを完了するには、次のものが必要です。
+
+-   [このリポジトリのクローンを作成します：https：//github.com/ByteLegendQuest/java-set-a-conditional-breakpoint](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) `git` 。
+-   [src / main / java / com / bytelegend / Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java)の`calculate()`メソッドに条件付きブレークポイントを設定し、 `i`が5000に等しい場合のローカル変数の`result`の値をキャプチャします。これがこの課題の答えです。入力ボックスに入れると、このチェストを開くことができます。
+    -   **注：正しい結果はデバッガーを介してのみ取得できます`System.out.println`のような印刷ステートメントを追加しようとすると機能しません。これにより、間違った回答が得られます。**
+</details>
+
 <details>
 <summary>Русский</summary>
 
-<h1>Изучите условную точку останова отладчика Java</h1><p> Отладчик - очень важный навык, который может значительно повысить вашу производительность.</p><p> Условная точка останова - это более сложный навык отладки, который во многих случаях может ускорить отладку.</p><p> Для выполнения этого задания вам понадобятся:</p><ul><li> Клонируйте <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">это репо: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint</a> с помощью клиента <code class="notranslate">git</code></li><li> Установить условную точку останова в <code class="notranslate">calculate()</code> метод <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">Src / основной / Java / COM / bytelegend / Main.java</a> и захватить значение локальной переменной <code class="notranslate">result</code> , когда <code class="notranslate">i</code> равен 5000, что является ответом этой проблемы. Поместите его в поле ввода, и вы сможете открыть этот сундук.<ul><li> <strong>ПРИМЕЧАНИЕ: вы можете получить правильный результат только через отладчик, он НЕ Сработает, если вы попытаетесь добавить оператор печати, такой как <code class="notranslate">System.out.println</code> - это даст вам неправильный anser.</strong></li></ul></li></ul></details>
+Изучите условную точку останова отладчика Java
+==============================================
+
+Отладчик — очень важный навык, который может значительно повысить вашу производительность.
+
+Условная точка останова — это более продвинутый навык отладки, который во многих случаях может ускорить отладку.
+
+Чтобы выполнить это задание, вам нужно:
+
+-   Клонируйте [этот репозиторий: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) с помощью клиента `git` .
+-   Установите условную точку останова в методе `calculate()` [файла src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java) и зафиксируйте значение локальной переменной `result` , когда `i` равно 5000 , что является ответом на эту задачу. Поместите его в поле ввода, и вы сможете открыть этот сундук.
+    -   **ПРИМЕЧАНИЕ: вы можете получить правильный результат только через отладчик, он НЕ будет работать, если вы попытаетесь добавить оператор печати, такой как `System.out.println` - это даст вам неправильный ответ.**
+</details>
+
 <details>
 <summary>Deutsch</summary>
 
-<h1>Erfahren Sie Java Debugger Conditional Breakpoint</h1><p> Debugger ist eine sehr wichtige Fähigkeit, die Ihre Produktivität erheblich verbessern kann.</p><p> Bedingter Breakpoint ist eine fortgeschrittenere Debugging-Fähigkeit, die Ihr Debugging in vielen Fällen beschleunigen kann.</p><p> Um diese Herausforderung abzuschließen, benötigen Sie:</p><ul><li> Klonen Sie <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">dieses Repository: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint</a> mit dem <code class="notranslate">git</code> Client.</li><li> Setzen Sie einen bedingten Haltepunkt in der Methode <code class="notranslate">calculate()</code> <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">von src/main/java/com/bytelegend/Main.java</a> und erfassen Sie den Wert der lokalen Variablen <code class="notranslate">result</code> wenn <code class="notranslate">i</code> gleich 5000 ist, was die Antwort auf diese Herausforderung ist. Legen Sie es in das Eingabefeld und Sie können diese Truhe öffnen.<ul><li> <strong>HINWEIS: Sie können nur über den Debugger das richtige Ergebnis erhalten, es funktioniert NICHT, wenn Sie versuchen, eine <code class="notranslate">System.out.println</code> wie System.out.println hinzuzufügen - das gibt Ihnen eine falsche Antwort.</strong></li></ul></li></ul></details>
+Erfahren Sie mehr über den bedingten Haltepunkt des Java-Debuggers
+==================================================================
+
+Debugger ist eine sehr wichtige Fähigkeit, die Ihre Produktivität erheblich verbessern kann.
+
+Bedingter Haltepunkt ist eine fortgeschrittenere Debugging-Fähigkeit, die das Debuggen in vielen Fällen beschleunigen kann.
+
+Um diese Herausforderung abzuschließen, benötigen Sie:
+
+-   Klonen [Sie dieses Repo: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) mit dem `git` -Client.
+-   Setzen Sie einen bedingten Haltepunkt in der compute `calculate()` -Methode von [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java) und erfassen Sie den Wert der lokalen Variable `result` wenn `i` gleich 5000 ist, was die Antwort auf diese Herausforderung ist. Legen Sie es in das Eingabefeld und Sie können diese Truhe öffnen.
+    -   **HINWEIS: Sie können das korrekte Ergebnis nur über den Debugger erhalten. Es funktioniert NICHT, wenn Sie versuchen, eine Druckanweisung wie `System.out.println` hinzuzufügen - das gibt Ihnen eine falsche Antwort.**
+</details>
+
 <details>
 <summary>한국어</summary>
 
-<h1>자바 디버거 조건부 중단점 배우기</h1><p> 디버거는 생산성을 크게 향상시킬 수 있는 매우 중요한 기술입니다.</p><p> 조건부 중단점은 많은 경우에 디버깅 속도를 높일 수 있는 고급 디버깅 기술입니다.</p><p> 이 챌린지를 완료하려면 다음이 필요합니다.</p><ul><li> <code class="notranslate">git</code> 클라이언트를 사용하여 <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint 이 리포지토리를</a> 복제합니다.</li><li> <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">src/main/java/com/bytelegend/Main.java</a> <code class="notranslate">calculate()</code> 메소드에 조건부 중단점을 설정하고 <code class="notranslate">i</code> 5000일 때 <code class="notranslate">result</code> 값을 캡처합니다. 이는 이 문제의 답입니다. 입력 상자에 넣으면 이 상자를 열 수 있습니다.<ul><li> <strong>참고: 디버거를 통해서만 올바른 결과를 얻을 수 있습니다. <code class="notranslate">System.out.println</code> 과 같은 인쇄 문을 추가하려고 하면 작동하지 않습니다. 그러면 잘못된 anser가 표시됩니다.</strong></li></ul></li></ul></details>
+자바 디버거 조건부 중단점 배우기
+==================
+
+디버거는 생산성을 크게 향상시킬 수 있는 매우 중요한 기술입니다.
+
+조건부 중단점은 많은 경우에 디버깅 속도를 높일 수 있는 고급 디버깅 기술입니다.
+
+이 챌린지를 완료하려면 다음이 필요합니다.
+
+-   `git` 클라이언트를 사용하여 [https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint 이 리포지토리](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) 를 복제합니다.
+-   [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java) 의 `calculate()` 메소드에 조건부 중단점을 설정하고 `i` 가 5000일 때 로컬 변수 `result` 값을 캡처합니다. 이는 이 문제의 답입니다. 입력 상자에 넣으면 이 상자를 열 수 있습니다.
+    -   **참고: 디버거를 통해서만 올바른 결과를 얻을 수 있습니다. `System.out.println` 과 같은 인쇄 문을 추가하려고 하면 작동하지 않습니다. 그러면 잘못된 anser가 표시됩니다.**
+</details>
+
 <details>
 <summary>Italiano</summary>
 
-<h1>Scopri il punto di interruzione condizionale del debugger Java</h1><p> Il debugger è un&#39;abilità molto importante, che può migliorare notevolmente la tua produttività.</p><p> Il punto di interruzione condizionale è un&#39;abilità di debug più avanzata, che in molti casi può velocizzare il debug.</p><p> Per completare questa sfida, è necessario:</p><ul><li> Clona <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint" target="_blank">questo repository: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint</a> con <code class="notranslate">git</code> client.</li><li> Imposta un punto di interruzione condizionale nel metodo <code class="notranslate">calculate()</code> <a href="https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java" target="_blank">di src/main/java/com/bytelegend/Main.java</a> e acquisisci il valore del <code class="notranslate">result</code> variabile locale quando <code class="notranslate">i</code> uguale a 5000 , che è la risposta di questa sfida. Mettilo nella casella di input e puoi aprire questo baule.<ul><li> <strong>NOTA: puoi ottenere il risultato corretto solo tramite il debugger, NON funzionerà se provi ad aggiungere un&#39;istruzione di stampa come <code class="notranslate">System.out.println</code> - che ti darà una risposta sbagliata.</strong></li></ul></li></ul></details>
+Impara il punto di interruzione condizionale di Java Debugger
+=============================================================
+
+Il debugger è un'abilità molto importante, che può migliorare notevolmente la tua produttività.
+
+Il punto di interruzione condizionale è un'abilità di debug più avanzata, che può accelerare il debug in molti casi.
+
+Per completare questa sfida, hai bisogno di:
+
+-   Clona [questo repository: https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint) con `git` client.
+-   Imposta un punto di interruzione condizionale nel metodo `calculate()` di [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-set-a-conditional-breakpoint/blob/main/src/main/java/com/bytelegend/Main.java) e acquisisci il valore della variabile locale `result` quando `i` è uguale a 5000 , che è la risposta a questa sfida. Mettilo nella casella di input e puoi aprire questo forziere.
+    -   **NOTA: puoi ottenere il risultato corretto solo tramite il debugger, NON funzionerà se provi ad aggiungere un'istruzione print come `System.out.println` - che ti darà una risposta sbagliata.**
+</details>
